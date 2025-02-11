@@ -1,0 +1,1 @@
+The issue arises when using Firebase's Realtime Database with transactions.  Sometimes, even when the transaction callback returns `false`, indicating failure, the database still updates. This can lead to unexpected data modifications, potentially causing data inconsistency.
